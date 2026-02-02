@@ -1,0 +1,55 @@
+{
+    "project_info": {
+      "project_number": "994266106458",
+      "project_id": "eyeseeit-dd5d3",
+      "storage_bucket": "eyeseeit-dd5d3.firebasestorage.app"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:994266106458:android:eebbca3beb4f33eb316663",
+          "android_client_info": {
+            "package_name": "eye.see.it.android"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "994266106458-2t8je1v7m0508pr0o3672aakvhltdnnm.apps.googleusercontent.com",
+            "client_type": 1,
+            "android_info": {
+              "package_name": "eye.see.it.android",
+              "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+            }
+          },
+          {
+            "client_id": "994266106458-q7u4kh0gdctfhl7e4n6vsd6ho2na5vgt.apps.googleusercontent.com",
+            "client_type": 1,
+            "android_info": {
+              "package_name": "eye.see.it.android",
+              "certificate_hash": "b0fb61bc220a906e936ac7a926461f4addf7fa0b"
+            }
+          },
+          {
+            "client_id": "994266106458-4qmv51luvfh06m6g8j3npecsapvq78h1.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyBOBW3E7q7Ix0uPMygQ7gcY1V9Lw21F-Rw"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "994266106458-4qmv51luvfh06m6g8j3npecsapvq78h1.apps.googleusercontent.com",
+                "client_type": 3
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }
