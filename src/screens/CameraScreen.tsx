@@ -388,6 +388,7 @@ export default function CameraScreen() {
           isActive={true}
           photo={true}
           photoQualityBalance="speed"
+          torch={flash}
         />
       )}
 

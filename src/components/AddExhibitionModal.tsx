@@ -473,11 +473,12 @@ export default function AddExhibitionModal({
           {hasCameraPermission && device ? (
             <RNView style={{ flex: 1 }}>
               <Camera
-              ref={cameraRef}
-              style={{ flex: 1 }}
+                ref={cameraRef}
+                style={{ flex: 1 }}
                 device={device}
                 isActive={cameraVisible}
                 photo={true}
+                torch={flash}
               />
               <RNView style={[styles.camTopBar, { position: 'absolute', top: 0, left: 0, right: 0 }]}>
                 <TouchableOpacity
