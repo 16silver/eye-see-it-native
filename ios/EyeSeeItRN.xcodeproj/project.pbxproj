@@ -12,6 +12,7 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8EF0DA499D5EB9D2BACE08CF /* Pods_EyeSeeItRN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5533A53A2F49D188A50B9C4E /* Pods_EyeSeeItRN.framework */; };
 		BEB99E3C3085E1F4E031C1AF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		GSIPBF001A68108700A75B9A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = GSIP00001A68108700A75B9A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EyeSeeItRN/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EyeSeeItRN/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = EyeSeeItRN/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		GSIP00001A68108700A75B9A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "EyeSeeItRN/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-EyeSeeItRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeSeeItRN.debug.xcconfig"; path = "Target Support Files/Pods-EyeSeeItRN/Pods-EyeSeeItRN.debug.xcconfig"; sourceTree = "<group>"; };
 		5533A53A2F49D188A50B9C4E /* Pods_EyeSeeItRN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeSeeItRN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5709B34CF0A7D63546082F79 /* Pods-EyeSeeItRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeSeeItRN.release.xcconfig"; path = "Target Support Files/Pods-EyeSeeItRN/Pods-EyeSeeItRN.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 			children = (
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				GSIP00001A68108700A75B9A /* GoogleService-Info.plist */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
@@ -162,6 +165,7 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				BEB99E3C3085E1F4E031C1AF /* PrivacyInfo.xcprivacy in Resources */,
+				GSIPBF001A68108700A75B9A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
