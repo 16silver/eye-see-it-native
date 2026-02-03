@@ -33,5 +33,12 @@ target 'EyeSeeItRN' do
       config[:reactNativePath],
       :mac_catalyst_enabled => false,
     )
+    
+    # 모든 Pods의 iOS 배포 타겟을 17.0으로 강제 설정
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '17.0'
+      end
+    end
   end
 end
