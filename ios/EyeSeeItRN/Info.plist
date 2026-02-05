@@ -23,15 +23,17 @@
 	<key>CFBundleVersion</key>
 	<string>3</string>
 	<key>LSRequiresIPhoneOS</key>
-	<true />
+	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
-		<false />
+		<false/>
 		<key>NSAllowsLocalNetworking</key>
-		<true />
+		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>주변 전시회를 찾기 위해 위치 정보를 사용합니다.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>주변 전시회를 찾기 위해 위치 정보를 사용합니다.</string>
 	<key>NSCameraUsageDescription</key>
 	<string>전시회 사진 촬영을 위해 카메라에 접근합니다.</string>
@@ -54,7 +56,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
-	<false />
+	<false/>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
